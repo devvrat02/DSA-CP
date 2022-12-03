@@ -1,0 +1,17 @@
+bit manipulation trick
+a=a^b
+b=a^b
+a=a^b
+Bit masking 
+on & operation we can find 
+i th bit of n no =>
+n=5 i=2         
+101 n
+010 mask= 1<<i location
+
+n & mask => 0 & 1 0
+
+n & ~1<<i => bit change
+
+find no of bits need to change count in a to b conversion => log2n +1
+n&(n-1)
