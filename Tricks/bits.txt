@@ -13,5 +13,5 @@ n & mask => 0 & 1 0
 
 n & ~1<<i => bit change
 
-find no of bits need to change count in a to b conversion => log2n +1
+find no of bits need to change count in a to b conversion=>a^b => log2n +1
 n&(n-1)
